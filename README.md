@@ -55,20 +55,11 @@ Our best configuration achieves:
 # Clone the repository
 git clone https://github.com/mansogf/tinyML.git
 cd tinyML
-
-# Install dependencies
-pip install -r requirements.txt
 ```
 
 ## 📈 Usage
 
 ```python
-# Example usage of the quantization methods
-from quantization import AWQ, SmoothQuant, LayerwiseQuant
-
-# Load your model
-model = load_model("path/to/model")
-
 # Apply quantization
 quantized_model = AWQ(
     model,
